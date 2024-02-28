@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+* {
+  margin: 0;
+  font-family: Poppins;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: whitesmoke;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container .container-img-top {
+  width: 100vw;
+  height: 400px;
+  margin-top: 16vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #f6ebda;
+}
+.container .container-img-top .img-bg {
+  width: 100vw;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.1;
+  position: absolute;
+}
+.container .container-img-top .card-top {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 18px;
+  margin-top: -70px;
+  margin-left: 250px;
+  z-index: 999999999;
+}
+.container .container-img-top .card-top .img-card-1 {
+  width: 290px;
+  height: 390px;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+}
+.container .container-img-top .container-text-top {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.container .container-img-top .container-text-top h3 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin-top: 65px;
+  margin-left: 750px;
+  position: absolute;
+}
+.container .container-img-top .container-text-top .underline-top {
+  width: 36px;
+  height: 3px;
+  position: absolute;
+  background-color: #fab876;
+  margin-top: 100px;
+  margin-left: 826px;
+}
+.container .container-img-top .container-text-top h4 {
+  font-weight: bolder;
+  font-size: 1.3rem;
+  margin-top: 135px;
+  margin-left: 752px;
+  position: absolute;
+}
+.container .container-img-top .container-text-top h5 {
+  font-weight: 100;
+  margin-top: 210px;
+  margin-left: 752px;
+  position: absolute;
+}
+.container .container-img-top .container-text-top button {
+  width: 140px;
+  height: 35px;
+  background-color: black;
+  font-weight: bold;
+  color: yellow;
+  margin-top: 285px;
+  margin-left: 752px;
+  position: absolute;
+  border-radius: 16px;
+}
+.container .container-bottom {
+  display: flex;
+  flex-direction: column;
+}
+.container .container-bottom h2 {
+  font-weight: bold;
+  margin-top: 90px;
+  margin-left: 90px;
+}
+.container .container-bottom .underline-bottom {
+  width: 94px;
+  height: 3px;
+  position: absolute;
+  background-color: #fab876;
+  margin-top: 127px;
+  margin-left: 256px;
+}
+.container .container-bottom .row1, .container .container-bottom .row2 {
+  width: 100vw;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+}
+.container .container-bottom .row1 {
+  display: flex;
+  justify-content: center;
+}
+.container .container-bottom .row1 .card1-row1, .container .container-bottom .row1 .card2-row1, .container .container-bottom .row1 .card3-row1 {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  height: 316px;
+  border-radius: 13px;
+  margin-top: 70px;
+  margin-left: 60px;
+}
+.container .container-bottom .row1 .card1-row1 img, .container .container-bottom .row1 .card2-row1 img, .container .container-bottom .row1 .card3-row1 img {
+  width: 279px;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+.container .container-bottom .row1 .card1-row1 .title, .container .container-bottom .row1 .card2-row1 .title, .container .container-bottom .row1 .card3-row1 .title {
+  margin-top: 12px;
+}
+.container .container-bottom .row1 .card1-row1 .title .text-1, .container .container-bottom .row1 .card2-row1 .title .text-1, .container .container-bottom .row1 .card3-row1 .title .text-1 {
+  float: left;
+}
+.container .container-bottom .row1 .card1-row1 .title .text-2, .container .container-bottom .row1 .card2-row1 .title .text-2, .container .container-bottom .row1 .card3-row1 .title .text-2 {
+  float: right;
+}
+.container .container-bottom .row1 .card1-row1 .container-card-row1, .container .container-bottom .row1 .card2-row1 .container-card-row1, .container .container-bottom .row1 .card3-row1 .container-card-row1 {
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.container .container-bottom .row1 .card1-row1 .container-card-row1 h5, .container .container-bottom .row1 .card2-row1 .container-card-row1 h5, .container .container-bottom .row1 .card3-row1 .container-card-row1 h5 {
+  color: rgb(163, 161, 161);
+  margin-right: 5.4rem;
+  margin-left: 0.4rem;
+}
+.container .container-bottom .row1 .card1-row1 .container-card-row1 .img-circle, .container .container-bottom .row1 .card2-row1 .container-card-row1 .img-circle, .container .container-bottom .row1 .card3-row1 .container-card-row1 .img-circle {
+  width: 32px;
+  height: 31px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid orange;
+  background-color: orange;
+  border-radius: 100px;
+  margin-left: 58px;
+}
+.container .container-bottom .row1 .card1-row1 .container-card-row1 .img-circle img, .container .container-bottom .row1 .card2-row1 .container-card-row1 .img-circle img, .container .container-bottom .row1 .card3-row1 .container-card-row1 .img-circle img {
+  width: 16px;
+  margin-top: -0.5px;
+  margin-left: -0.5px;
+}
+.container .container-bottom .row2 {
+  display: flex;
+  justify-content: center;
+}
+.container .container-bottom .row2 .card1-row2, .container .container-bottom .row2 .card2-row2, .container .container-bottom .row2 .card3-row2 {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  height: 316px;
+  border-radius: 13px;
+  margin-top: 40px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+.container .container-bottom .row2 .card1-row2 img, .container .container-bottom .row2 .card2-row2 img, .container .container-bottom .row2 .card3-row2 img {
+  width: 279px;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+.container .container-bottom .row2 .card1-row2 .title, .container .container-bottom .row2 .card2-row2 .title, .container .container-bottom .row2 .card3-row2 .title {
+  margin-top: 12px;
+}
+.container .container-bottom .row2 .card1-row2 .title .text-1, .container .container-bottom .row2 .card2-row2 .title .text-1, .container .container-bottom .row2 .card3-row2 .title .text-1 {
+  float: left;
+}
+.container .container-bottom .row2 .card1-row2 .title .text-2, .container .container-bottom .row2 .card2-row2 .title .text-2, .container .container-bottom .row2 .card3-row2 .title .text-2 {
+  float: right;
+}
+.container .container-bottom .row2 .card1-row2 .container-card-row2, .container .container-bottom .row2 .card2-row2 .container-card-row2, .container .container-bottom .row2 .card3-row2 .container-card-row2 {
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+}
+.container .container-bottom .row2 .card1-row2 .container-card-row2 h5, .container .container-bottom .row2 .card2-row2 .container-card-row2 h5, .container .container-bottom .row2 .card3-row2 .container-card-row2 h5 {
+  color: rgb(163, 161, 161);
+  margin-right: 5.4rem;
+  margin-left: 0.4rem;
+}
+.container .container-bottom .row2 .card1-row2 .container-card-row2 .img-circle, .container .container-bottom .row2 .card2-row2 .container-card-row2 .img-circle, .container .container-bottom .row2 .card3-row2 .container-card-row2 .img-circle {
+  width: 32px;
+  height: 31px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid orange;
+  background-color: orange;
+  border-radius: 100px;
+  margin-left: 58px;
+}
+.container .container-bottom .row2 .card1-row2 .container-card-row2 .img-circle img, .container .container-bottom .row2 .card2-row2 .container-card-row2 .img-circle img, .container .container-bottom .row2 .card3-row2 .container-card-row2 .img-circle img {
+  width: 16px;
+  margin-top: -0.5px;
+  margin-left: -0.5px;
+}/*# sourceMappingURL=style.css.map */
